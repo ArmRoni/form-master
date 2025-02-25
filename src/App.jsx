@@ -1,7 +1,8 @@
 
 import './App.css'
+import HookForm from './components/HookForm/HookForm'
 // import SimpleForm from './components/SimpleForm/SimpleForm'
-import StatefullFrom from './components/StatefullForm/StatefullFrom'
+// import StatefullFrom from './components/StatefullForm/StatefullFrom'
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
     <>
         <h2>React Form</h2>
         {/* <SimpleForm></SimpleForm> */}
-        <StatefullFrom></StatefullFrom>
+        {/* <StatefullFrom></StatefullFrom> */}
+        <HookForm></HookForm>
     </>
   )
 }
